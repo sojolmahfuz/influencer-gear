@@ -1,5 +1,9 @@
 /* ================= goolge fonts=============== */
 
+*{
+    margin: 0;
+}
+
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -7,11 +11,16 @@ body{
 /* ======================== common setup ================= */
 
 .hr-1{
-    width: 76%;
+    width: 99%;
     margin-top: 5%;
 }
 .hr-2{
-    width: 76%;
+    width: 99%;
+}
+.extra{
+    float: right;
+    margin-right: 100px;
+    color: crimson;
 }
 
 /* ==================== feature section ================== */
@@ -66,17 +75,24 @@ button{
 
 /* ================================ Popular Section ================== */
 
+.popular-title{
+    color: #3A3A3A;
+    text-align: center;
+    margin-top: 5%;
+    font-size: 20px;
+}
 .popular-items{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
     justify-items: center;
-    margin: 10%;
+    margin: 3% 10%;
 }
 .popular-products{
+    border-radius: 10px;
     width: 330px;
     height: 470px;
-    box-shadow:-3px 10px 20px 20px rgb(230, 228, 228);
+    box-shadow:-3px 3px 20px 3px rgb(230, 228, 228);
 }
 .products{
     padding: 15px;
@@ -85,6 +101,60 @@ button{
     margin-top: 0;
     font-size: 15px;
 }
+.products img{
+    border-radius: 10px;
+}
 .products p{
     font-size: 15px;
+}
+
+/* ========================= Customer Feedback =================== */
+
+.customer-title{
+    color: #3A3A3A;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-size: 20px;
+}
+.customer-details{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+.customers{
+    text-align: center;
+}
+.customers h3{
+    color: crimson;
+}
+.customers img{
+    width: 100px;
+}
+/* ================================= footer section ============== */
+
+footer{
+    background-color: rgb(8, 8, 32);
+    margin-top: 10%;
+}
+.copywrite{
+    padding: 40px;
+    padding-bottom: 0;
+    color: #fff;
+    text-align: center;
+}
+.copywrite h1{
+    font-size: 20px;
+}
+.copywrite p{
+    font-size: 15px;
+}
+.social-links{
+    margin-left: 16px;
+    text-align: center;
+    padding-bottom: 40px;
+    color: #fff;
+}
+.social-links i{
+    padding-right: 20px;
 }
