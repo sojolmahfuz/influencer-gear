@@ -4,8 +4,19 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+/* ======================== common setup ================= */
+
+.hr-1{
+    width: 76%;
+    margin-top: 5%;
+}
+.hr-2{
+    width: 76%;
+}
+
 /* ==================== feature section ================== */
 .feature-section{
+    
     background-image: url(images/Circle\ design.svg);
     background-repeat: no-repeat;
     background-size: 35%;
@@ -13,7 +24,7 @@ body{
 }
 .feature-items{
     display: flex;
-    margin-top: 8%;
+    margin-top: 5%;
 }
 .feature-header{
     width: 540px;
@@ -40,4 +51,40 @@ button{
     border-radius: 40px;
     color: #fff;
     font-weight: bold;
+}
+
+/* =========================== logo section ====================== */
+
+.logo-items{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.logo-items .logos{
+    padding:0 30px 0 30px;
+}
+
+/* ================================ Popular Section ================== */
+
+.popular-items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    justify-items: center;
+    margin: 10%;
+}
+.popular-products{
+    width: 330px;
+    height: 470px;
+    box-shadow:-3px 10px 20px 20px rgb(230, 228, 228);
+}
+.products{
+    padding: 15px;
+}
+.products h3{
+    margin-top: 0;
+    font-size: 15px;
+}
+.products p{
+    font-size: 15px;
 }
